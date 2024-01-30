@@ -18,7 +18,11 @@ public class Main {
         }
         else if (b>c && c>a ){
             System.out.print(1+ " ");
-        }else{
+        } 
+        else if (c>b && b>a ){
+            System.out.print(1+ " ");
+        }
+        else{
             System.out.print(0+ " ");
         }
 
