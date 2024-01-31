@@ -14,7 +14,7 @@ public class Main {
         if(age1 >= 19 || age2 >= 19){
             System.out.println( fm1.equals("M") || fm2.equals("M") ? 1 : 0);
         }else{
-            System.out.println("0");
+            System.out.println(0);
         }
 
     }
