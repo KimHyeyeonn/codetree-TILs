@@ -1,20 +1,22 @@
-import java.util.Scanner ;
-
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        for ( int i = 1 ; i<= 10; i++){
-            i = sc.nextInt();
-        }
         int cnt = 0;
-
-        for (int i = 1; i <= 10; i++) {
-            if (i % 2 == 1) {
+        
+        // 10개의 숫자를 입력 받아 홀수의 개수를 세기
+        for (int i = 0; i < 10; i++) {
+            int num = sc.nextInt();
+            if (num % 2 == 1) {
                 cnt++;
-            }else{
-                cnt = cnt ;
             }
-        }System.out.println(cnt);
+        }
+        
+        // 홀수의 개수 출력
+        System.out.println(cnt);
+
+        // Scanner 닫기
+        sc.close();
     }
 }
