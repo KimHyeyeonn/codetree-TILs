@@ -11,7 +11,7 @@ public class Main {
         int cnt = 0;
     
         // 각 년도마다 확인합니다.
-        for(int i = 1; i < n; i++) {
+        for(int i = 1; i <= n; i++) {
             if((i % 4 == 0 && i % 100 != 0) || (i % 400 == 0))
                 cnt++;
         }
