@@ -7,7 +7,7 @@ public class Main {
         
         boolean satisfied = false;
         if(n > 1){
-            for (int i = 2; i <= n; i++) {
+            for (int i = 2; i < n; i++) {
                 if (n % i == 0) {
                     satisfied = true;
                 }
