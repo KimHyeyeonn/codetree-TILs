@@ -6,8 +6,10 @@ public class Main {
         boolean satisfied = false;
         for (int i = 1; i <= 5; i++) {
              int a = sc.nextInt();
-             if(a%3 == 0){
+             for(int j = 1 ; j <= 5 ; j++){
+                if(a % 3 == 0){
                 satisfied = true ;
+             }
              }
         }
         if (satisfied == true) {
